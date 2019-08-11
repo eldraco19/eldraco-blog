@@ -3,10 +3,13 @@ languageCode = "en-us"
 theme = "terminal"
 title = "Ayush Karn"
 subtitle = ""
-copyright = "LICENSE: CC-BY-SA 4.0"
+copyright = "©2019 - Ayush Karn"
 keywords = ""
 paginate = 5
 disqusShortname = "eldraco"
+
+[author]
+  name = "Ayush Karn"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -16,11 +19,11 @@ disqusShortname = "eldraco"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
   # set theme to full screen width
-  fullWidthTheme = true
+  fullWidthTheme = false
   # center theme with default width
   centerTheme = true
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  favicon = "favicon.ico"
 
 [languages]
   [languages.en]
@@ -46,4 +49,13 @@ disqusShortname = "eldraco"
         identifier = "about"
         name = "About"
         url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/@_eldraco_"
+      [[languages.en.menu.main]]
+        identifier = "rss"
+        name = "RSS"
+        url = "/index.xml"
+      
       
